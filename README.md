@@ -7,9 +7,9 @@ This package contains the driver and a basic example of the HotelPasteur display
 
 ## Driver Files
 The driver depends on the following files:
-src/AvrGPIO.h
-src/GpioPin.h
-src/HpasteurDisplay.h
+ * src/AvrGPIO.h
+ * src/GpioPin.h
+ * src/HpasteurDisplay.h
 
 It has been developped and tested on the Atmega 328p µControler.
 There are no specific requirements beyond the standard platformio SDK backend for the Atmega.
@@ -42,10 +42,10 @@ The total number of leds:
 The platforio scripts have been extended to support and automatic uploading of the firmware over the network using an ESP8266 (ESP8266AVRISP)
 
 New pio targets :
- "telnet":   command line on the atmega328p flash program
- "wupload":  upload the firmware via an esp8266 at an IP address set in the "platformio.ini" file
- "assembly": compile the main file and generate the assembly code
- "sclean":   clean the "compile" target
+ * "telnet":   command line on the atmega328p flash program
+ * "wupload":  upload the firmware via an esp8266 at an IP address set in the "platformio.ini" file
+ * "assembly": compile the main file and generate the assembly code
+ * "sclean":   clean the "compile" target
 
 To run a target:
 ```bash
