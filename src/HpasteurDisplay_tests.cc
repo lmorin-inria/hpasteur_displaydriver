@@ -21,7 +21,7 @@ namespace hpasteur {
   void swapLevels(AVRDisplaySegment &gpioSegment)
   {
     const uint16_t wait = 100;
-    size_t waitCount = 1;
+    // size_t waitCount = 1;
     size_t cursor = 0;
 
     while (1) {
